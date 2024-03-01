@@ -19,7 +19,16 @@ void Divide_Command::execute(void) {
  s_.pop();
  int num1 = s_.top();
  s_.pop();
- s_.push(num1 / num2);
+
+ try {
+	if (num2 == 0) {
+		throw std::runtime_error("Divide by zero exception");
+	}
+	s_.push(num1 / num2);
+ }
+ catch (const std::runtime_error& e) {
+	std::cerr<< "Error: " << e.what() << std::endl;
+ }
 }
 
 //
