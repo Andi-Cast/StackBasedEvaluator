@@ -1,4 +1,4 @@
-# **Stack Bases Evaluator**
+# **Stack Based Evaluator**
 ### This the third assignment in the course 'Principles of Software Design'
 -----
 
