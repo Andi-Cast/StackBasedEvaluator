@@ -19,10 +19,14 @@
 -----
 
 ## **Examples**
-- ##### There should be a spaces between each token. Press 'enter' to evaluate input expression.
-
+- ###There should be a spaces between each token. Press 'enter' to evaluate input expression.
+  
+- Example 1: Demonstrates the capability to handle positive and negative integers.
 <img src="https://github.com/Andi-Cast/Stack_Based_Evaluator/blob/main/BasicExample.png" height="auto" width="50%" >
+- Examples 2: Demonstrates order of operations is properly working.
 <img src="https://github.com/Andi-Cast/Stack_Based_Evaluator/blob/main/OrderOfOperations.png" height="auto" width="50%" >
+- Example 3: Demonstrates the ability to handle division by zero and continue running.
+  - In order to stop the program "QUIT" must be input.
 <img src="https://github.com/Andi-Cast/Stack_Based_Evaluator/blob/main/DivideByZeroAndQuit.png" height="auto" width="50%" >
 -----
 
